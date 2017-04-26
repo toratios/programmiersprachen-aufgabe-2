@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/example.dir/window.o CMakeFiles/example.dir/glew.o CMakeFiles/example.dir/example.o  -o example -rdynamic -lglfw -lnanovg 

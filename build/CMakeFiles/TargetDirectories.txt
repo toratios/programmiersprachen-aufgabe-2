@@ -1,0 +1,4 @@
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/rebuild_cache.dir
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/tests.dir
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/edit_cache.dir
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/example.dir
