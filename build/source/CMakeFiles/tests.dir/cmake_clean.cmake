@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/tests.dir/vec2.cpp.o"
   "CMakeFiles/tests.dir/tests.cpp.o"
   "tests.pdb"
   "tests"
