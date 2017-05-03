@@ -22,5 +22,7 @@ TEST_CASE ( " describe_mat2 " , " [ mat2 ] " )
 
 int main(int argc, char *argv[])
 {
+  Vec2 v(5.0,-5.0);
+  v /= 0;
   return Catch::Session().run(argc, argv);
 }

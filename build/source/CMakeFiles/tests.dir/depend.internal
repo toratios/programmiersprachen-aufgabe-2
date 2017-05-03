@@ -4,6 +4,7 @@
 source/CMakeFiles/tests.dir/mat2.cpp.o
  /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.cpp
  /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.hpp
+ /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
 source/CMakeFiles/tests.dir/tests.cpp.o
  ../external/catch-1.1/catch.hpp
  /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.hpp

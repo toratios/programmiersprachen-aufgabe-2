@@ -3,6 +3,7 @@
 
 source/CMakeFiles/tests.dir/mat2.cpp.o: ../source/mat2.cpp
 source/CMakeFiles/tests.dir/mat2.cpp.o: ../source/mat2.hpp
+source/CMakeFiles/tests.dir/mat2.cpp.o: ../source/vec2.hpp
 
 source/CMakeFiles/tests.dir/tests.cpp.o: ../external/catch-1.1/catch.hpp
 source/CMakeFiles/tests.dir/tests.cpp.o: ../source/mat2.hpp

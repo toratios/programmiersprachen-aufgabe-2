@@ -1,6 +1,5 @@
 #include "mat2.hpp"
 
-
 Mat2::Mat2() :
   xx_{1.0},
   xy_{0.0},
@@ -27,4 +26,24 @@ float Mat2::det() const{
 
 Mat2 operator *=(Mat2 const& m1, Mat2 const& m2){
     return Mat2(m1) *= m2;
+  }
+
+Vec2 operator *(Mat2 const& m, Vec2 const& v){
+    Vec2 vec;
+    vec.x_ = m.xx_*v.x_ + m.xy_*v.y_;
+    vec.y_ = m.yx_*v.x_ + m.yy_*v.y_;
+    return vec;
+  }
+
+Vec2 operator *(Vec2 const& v, Mat2 const& m){
+    Vec2 vec;
+    vec.x_ = m.xx_*v.x_ + m.xy_*v.y_;
+    vec.y_ = m.yx_*v.x_ + m.yy_*v.y_;
+    return vec;
+  }
+
+Mat2 inverse(){
+  //  if (det() != 0){}
+
+   
   }
