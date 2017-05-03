@@ -1,6 +1,6 @@
 # ifndef VEC2_HPP
 # define VEC2_HPP
-#include <iostream>
+
 // Vec2 class definition
 struct Vec2
 {

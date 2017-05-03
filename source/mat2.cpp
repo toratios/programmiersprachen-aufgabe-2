@@ -1,4 +1,6 @@
 #include "mat2.hpp"
+#include <iostream>
+#include <cmath>
 
 Mat2::Mat2() :
   xx_{1.0},
@@ -42,8 +44,33 @@ Vec2 operator *(Vec2 const& v, Mat2 const& m){
     return vec;
   }
 
-Mat2 inverse(){
-  //  if (det() != 0){}
+Mat2 inverse(Mat2 const& m){
+    Mat2 mat;
+    if(m.det() == 0){
+      std::cout << "Inverse not existing.";
+      return mat;
+    }
+    mat.xx_ = (1/m.det()) * m.yy_;
+    mat.xy_ = (1/m.det()) * - m.xy_;
+    mat.yx_ = (1/m.det()) * - m.yx_;
+    mat.yy_ = (1/m.det()) * m.yy_;
+    return mat;
+  }
 
-   
+Mat2 transpose(Mat2 const& m){
+    Mat2 mat;
+    mat.xx_ = m.xx_;
+    mat.xy_ = m.yx_;
+    mat.yx_ = m.xy_;
+    mat.yy_ = m.yy_;
+    return mat;
+  }
+
+Mat2 make_rotation_mat2(float phi){
+    Mat2 mat;
+    mat.xx_ = cos(phi);
+    mat.xy_ = -sin(phi);
+    mat.yx_ = sin(phi);
+    mat.yy_ = cos(phi);
+    return mat; 
   }
