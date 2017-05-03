@@ -1,1 +1,1 @@
-/usr/bin/c++   -std=c++14 -Wall   CMakeFiles/tests.dir/vec2.cpp.o CMakeFiles/tests.dir/tests.cpp.o  -o tests -rdynamic 
+/usr/bin/c++   -std=c++14 -Wall   CMakeFiles/tests.dir/vec2.cpp.o CMakeFiles/tests.dir/tests.cpp.o CMakeFiles/tests.dir/mat2.cpp.o  -o tests -rdynamic 

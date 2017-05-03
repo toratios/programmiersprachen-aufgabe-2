@@ -1,5 +1,5 @@
 # ifndef MAT2_HPP
-# define MAT2_HPP
+# define MAt2_HPP
 // Mat2 class definition
 struct Mat2
 {
@@ -11,8 +11,10 @@ struct Mat2
     Mat2();
     Mat2(float xx,float xy, float yx, float yy);
 
-    Vec2& operator +=( Vec2 const& v );
-    Vec2& operator -=( Vec2 const& v );
-    Vec2& operator *=( float s );
-    Vec2& operator /=( float s );
+    Mat2& operator *=(Mat2 const& m );
+    float det() const;
 };
+
+Mat2 operator *( Mat2 const& m1 , Mat2 const& m2 );
+
+# endif
