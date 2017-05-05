@@ -3,22 +3,139 @@
 #include "vec2.hpp"
 #include "mat2.hpp"
 
-
-TEST_CASE ( " describe_vec2 " , " [ vec2 ] " )
+TEST_CASE ("default_constructor_vec2", "[vec2]")
 {
-  Vec2 v(5.0,-5.0);
-  REQUIRE (v.x_ == 5.0);
-  REQUIRE (v.y_ == -5.0);
   Vec2 v2;
   REQUIRE (v2.x_ == 0.0);
   REQUIRE (v2.y_ == 0.0);
 }
 
-TEST_CASE ( " describe_mat2 " , " [ mat2 ] " )
+TEST_CASE ("user_constructor_vec2", "[vec2 ]")
+{
+  Vec2 v(5.0,-5.0);
+  REQUIRE (v.x_ == 5.0);
+  REQUIRE (v.y_ == -5.0);
+}
+
+TEST_CASE ("vec2&_+=_operator", "[vec2]")
+{
+  Vec2 v(4.0,4.5);
+  Vec2 u(0.0,-8.0);
+  v += u;
+  REQUIRE(v.x_ == 4.0);
+  REQUIRE(v.y_ == -3.5);
+}
+
+TEST_CASE ("vec2&_-=_operator", "[vec2]")
+{
+  Vec2 v(4.0,4.5);
+  Vec2 u(0.0,-8.0);
+  v -= u;
+  REQUIRE(v.x_ == 4.0);
+  REQUIRE(v.y_ == +12.5);
+}
+
+TEST_CASE ("vec2&_*=_operator", "[vec2]")
+{
+  Vec2 v(4.0,4.5);
+  float s = 2.0;
+  v *= s;
+  REQUIRE(v.x_ == 8.0);
+  REQUIRE(v.y_ == 9.0);
+  s = 0.0;
+  v *= s;
+  REQUIRE(v.x_ == 0.0);
+  REQUIRE(v.y_ == 0.0);
+}
+
+TEST_CASE ("vec2&_/=_operator", "[vec2]")
+{
+  Vec2 v(4.0,4.5);
+  float s = 2.0;
+  v /= s;
+  REQUIRE(v.x_ == 2.0);
+  REQUIRE(v.y_ == 2.25);
+  s = 0;
+  v /= s;
+  REQUIRE(v.x_ == 0.0);
+}
+
+TEST_CASE ("default_constructor_mat2", "[mat2]")
+{
+  Mat2 m;
+  REQUIRE (m.xx_ == 1.0);
+  REQUIRE (m.yx_ == 0.0);
+  REQUIRE (m.xy_ == 0.0);
+  REQUIRE (m.yy_ == 1.0);
+}
+
+TEST_CASE ("user_constructor_mat2", "[mat2]")
+{
+  Mat2 m(5.0,6.0,-9.4,0.0);
+  REQUIRE (m.xx_ == 5.0f);
+  REQUIRE (m.xy_ == 6.0f);
+  REQUIRE (m.yx_ == -9.4f);
+  REQUIRE (m.yy_ == 0.0f);
+}
+
+TEST_CASE ("mat2&_*=_operator", "[mat2]")
+{
+  Mat2 m(1.0,2.0,3.0,4.0);
+  m *= m;
+  REQUIRE (m.xx_ == 7.0f);
+  REQUIRE (m.xy_ == 10.0f);
+  REQUIRE (m.yx_ == 15.0f);
+  REQUIRE (m.yy_ == 22.0f);
+}
+
+TEST_CASE ("det_mat2", "[mat2]")
 {
   Mat2 m(1.0, 3.0, 3.0, 1.0);
   REQUIRE (m.det() == -8.0);
-  }
+}
+
+TEST_CASE ("mat2_*_vec2_operator", "[mat2]")
+{
+  Mat2 m(1.0,2.0,3.0,4.0);
+  Vec2 v(2.0,-1.0);
+  Vec2 n;
+  n = m * v;
+  REQUIRE (n.x_ == 0.0f);
+  REQUIRE (n.y_ == 2.0f);
+  n = v * m;
+  REQUIRE (n.x_ == 0.0f);
+  REQUIRE (n.y_ == 2.0f);
+}
+
+TEST_CASE ("inverse_mat2", "[mat2]")
+{
+  Mat2 m(1.0, 2.0, 3.0, 4.0);
+  Mat2 n = inverse(m);
+  REQUIRE (n.xx_ == -2.0);
+  REQUIRE (n.xy_ == 1.0);
+  REQUIRE (n.yx_ == 1.5);
+  REQUIRE (n.yy_ == -0.5);
+}
+
+TEST_CASE ("transpose_mat2", "[mat2]")
+{
+  Mat2 m(1.0, 2.0, 3.0, 4.0);
+  Mat2 n = transpose(m);
+  REQUIRE (n.xx_ == 1.0);
+  REQUIRE (n.xy_ == 3.0);
+  REQUIRE (n.yx_ == 2.0);
+  REQUIRE (n.yy_ == 4.0);
+}
+
+TEST_CASE ("make_rotation_mat2", "[mat2]")
+{
+  float s = 3.14159/2;
+  Mat2 m = make_rotation_mat2(s);
+  REQUIRE (m.xx_ == 0.0f);
+  REQUIRE (m.xy_ == -1.0f);
+  REQUIRE (m.yx_ == 1.0f);
+  REQUIRE (m.yy_ == 0.0f);
+}
 
 int main(int argc, char *argv[])
 {

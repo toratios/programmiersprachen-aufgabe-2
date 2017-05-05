@@ -7,7 +7,7 @@ Mat2::Mat2() :
   xy_{0.0},
   yx_{0.0},
   yy_{1.0} {}
-
+  
 Mat2::Mat2(float xx, float xy, float yx, float yy) :
   xx_{xx},
   xy_{xy},
@@ -15,10 +15,14 @@ Mat2::Mat2(float xx, float xy, float yx, float yy) :
   yy_{yy} {}
 
 Mat2& Mat2::operator *=( Mat2 const& m ) {
-    this->xx_ = (xx_ * m.xx_) + (xy_ * m.yx_);
-    this->xy_ = (xx_ * m.xy_) + (xy_ * m.yy_);
-    this->yx_ = (yx_ * m.xx_) + (yy_ * m.yx_);
-    this->yy_ = (yx_ * m.xy_) + (yy_ * m.yy_);
+    float a = (xx_ * m.xx_) + (xy_ * m.yx_);
+    float b = (xx_ * m.xy_) + (xy_ * m.yy_);
+    float c = (yx_ * m.xx_) + (yy_ * m.yx_);
+    float d = (yx_ * m.xy_) + (yy_ * m.yy_);
+    this->xx_ = a;
+    this->xy_ = b;
+    this->yx_ = c;
+    this->yy_ = d;
     return *this;
   }
 
@@ -53,7 +57,7 @@ Mat2 inverse(Mat2 const& m){
     mat.xx_ = (1/m.det()) * m.yy_;
     mat.xy_ = (1/m.det()) * - m.xy_;
     mat.yx_ = (1/m.det()) * - m.yx_;
-    mat.yy_ = (1/m.det()) * m.yy_;
+    mat.yy_ = (1/m.det()) * m.xx_;
     return mat;
   }
 
