@@ -16,7 +16,6 @@ target_link_libraries(example
   ${OPENGL_LIBRARIES})
 add_dependencies(example glfw nanovg ${COPY_BINARY})
 
-
 # Build tests
 add_executable(tests
   vec2.cpp  
