@@ -226,6 +226,24 @@ vector
 assert.h
 -
 
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.cpp
+circle.hpp
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.hpp
+cmath
+-
+
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.hpp
+vec2.hpp
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
+color.hpp
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
+
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.cpp
+color.hpp
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
+
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
+
 /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.cpp
 mat2.hpp
 /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.hpp
@@ -238,6 +256,16 @@ cmath
 vec2.hpp
 /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
 
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/rectangle.cpp
+rectangle.hpp
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/rectangle.hpp
+
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/rectangle.hpp
+vec2.hpp
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
+color.hpp
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
+
 /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/tests.cpp
 catch.hpp
 -
@@ -245,6 +273,12 @@ vec2.hpp
 /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
 mat2.hpp
 /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.hpp
+rectangle.hpp
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/rectangle.hpp
+circle.hpp
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.hpp
+color.hpp
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
 
 /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.cpp
 vec2.hpp

@@ -129,11 +129,86 @@ source/CMakeFiles/tests.dir/mat2.cpp.o.provides: source/CMakeFiles/tests.dir/mat
 source/CMakeFiles/tests.dir/mat2.cpp.o.provides.build: source/CMakeFiles/tests.dir/mat2.cpp.o
 
 
+source/CMakeFiles/tests.dir/color.cpp.o: source/CMakeFiles/tests.dir/flags.make
+source/CMakeFiles/tests.dir/color.cpp.o: ../source/color.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object source/CMakeFiles/tests.dir/color.cpp.o"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/color.cpp.o -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.cpp
+
+source/CMakeFiles/tests.dir/color.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/color.cpp.i"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.cpp > CMakeFiles/tests.dir/color.cpp.i
+
+source/CMakeFiles/tests.dir/color.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/color.cpp.s"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.cpp -o CMakeFiles/tests.dir/color.cpp.s
+
+source/CMakeFiles/tests.dir/color.cpp.o.requires:
+
+.PHONY : source/CMakeFiles/tests.dir/color.cpp.o.requires
+
+source/CMakeFiles/tests.dir/color.cpp.o.provides: source/CMakeFiles/tests.dir/color.cpp.o.requires
+	$(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/color.cpp.o.provides.build
+.PHONY : source/CMakeFiles/tests.dir/color.cpp.o.provides
+
+source/CMakeFiles/tests.dir/color.cpp.o.provides.build: source/CMakeFiles/tests.dir/color.cpp.o
+
+
+source/CMakeFiles/tests.dir/circle.cpp.o: source/CMakeFiles/tests.dir/flags.make
+source/CMakeFiles/tests.dir/circle.cpp.o: ../source/circle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/CMakeFiles/tests.dir/circle.cpp.o"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/circle.cpp.o -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.cpp
+
+source/CMakeFiles/tests.dir/circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/circle.cpp.i"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.cpp > CMakeFiles/tests.dir/circle.cpp.i
+
+source/CMakeFiles/tests.dir/circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/circle.cpp.s"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.cpp -o CMakeFiles/tests.dir/circle.cpp.s
+
+source/CMakeFiles/tests.dir/circle.cpp.o.requires:
+
+.PHONY : source/CMakeFiles/tests.dir/circle.cpp.o.requires
+
+source/CMakeFiles/tests.dir/circle.cpp.o.provides: source/CMakeFiles/tests.dir/circle.cpp.o.requires
+	$(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/circle.cpp.o.provides.build
+.PHONY : source/CMakeFiles/tests.dir/circle.cpp.o.provides
+
+source/CMakeFiles/tests.dir/circle.cpp.o.provides.build: source/CMakeFiles/tests.dir/circle.cpp.o
+
+
+source/CMakeFiles/tests.dir/rectangle.cpp.o: source/CMakeFiles/tests.dir/flags.make
+source/CMakeFiles/tests.dir/rectangle.cpp.o: ../source/rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object source/CMakeFiles/tests.dir/rectangle.cpp.o"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/rectangle.cpp.o -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/rectangle.cpp
+
+source/CMakeFiles/tests.dir/rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/rectangle.cpp.i"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/rectangle.cpp > CMakeFiles/tests.dir/rectangle.cpp.i
+
+source/CMakeFiles/tests.dir/rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/rectangle.cpp.s"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/rectangle.cpp -o CMakeFiles/tests.dir/rectangle.cpp.s
+
+source/CMakeFiles/tests.dir/rectangle.cpp.o.requires:
+
+.PHONY : source/CMakeFiles/tests.dir/rectangle.cpp.o.requires
+
+source/CMakeFiles/tests.dir/rectangle.cpp.o.provides: source/CMakeFiles/tests.dir/rectangle.cpp.o.requires
+	$(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/rectangle.cpp.o.provides.build
+.PHONY : source/CMakeFiles/tests.dir/rectangle.cpp.o.provides
+
+source/CMakeFiles/tests.dir/rectangle.cpp.o.provides.build: source/CMakeFiles/tests.dir/rectangle.cpp.o
+
+
 # Object files for target tests
 tests_OBJECTS = \
 "CMakeFiles/tests.dir/vec2.cpp.o" \
 "CMakeFiles/tests.dir/tests.cpp.o" \
-"CMakeFiles/tests.dir/mat2.cpp.o"
+"CMakeFiles/tests.dir/mat2.cpp.o" \
+"CMakeFiles/tests.dir/color.cpp.o" \
+"CMakeFiles/tests.dir/circle.cpp.o" \
+"CMakeFiles/tests.dir/rectangle.cpp.o"
 
 # External object files for target tests
 tests_EXTERNAL_OBJECTS =
@@ -141,9 +216,12 @@ tests_EXTERNAL_OBJECTS =
 source/tests: source/CMakeFiles/tests.dir/vec2.cpp.o
 source/tests: source/CMakeFiles/tests.dir/tests.cpp.o
 source/tests: source/CMakeFiles/tests.dir/mat2.cpp.o
+source/tests: source/CMakeFiles/tests.dir/color.cpp.o
+source/tests: source/CMakeFiles/tests.dir/circle.cpp.o
+source/tests: source/CMakeFiles/tests.dir/rectangle.cpp.o
 source/tests: source/CMakeFiles/tests.dir/build.make
 source/tests: source/CMakeFiles/tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable tests"
 	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +232,9 @@ source/CMakeFiles/tests.dir/build: source/tests
 source/CMakeFiles/tests.dir/requires: source/CMakeFiles/tests.dir/vec2.cpp.o.requires
 source/CMakeFiles/tests.dir/requires: source/CMakeFiles/tests.dir/tests.cpp.o.requires
 source/CMakeFiles/tests.dir/requires: source/CMakeFiles/tests.dir/mat2.cpp.o.requires
+source/CMakeFiles/tests.dir/requires: source/CMakeFiles/tests.dir/color.cpp.o.requires
+source/CMakeFiles/tests.dir/requires: source/CMakeFiles/tests.dir/circle.cpp.o.requires
+source/CMakeFiles/tests.dir/requires: source/CMakeFiles/tests.dir/rectangle.cpp.o.requires
 
 .PHONY : source/CMakeFiles/tests.dir/requires
 

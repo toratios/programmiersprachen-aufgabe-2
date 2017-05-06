@@ -92,6 +92,24 @@ math.h
 nanovg.h
 ../external/nanovg/src/nanovg.h
 
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.cpp
+circle.hpp
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.hpp
+cmath
+-
+
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.hpp
+vec2.hpp
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
+color.hpp
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
+
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.cpp
+color.hpp
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
+
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
+
 /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/example.cpp
 window.hpp
 /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/window.hpp
@@ -113,6 +131,16 @@ cmath
 /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.hpp
 vec2.hpp
 /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
+
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/rectangle.cpp
+rectangle.hpp
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/rectangle.hpp
+
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/rectangle.hpp
+vec2.hpp
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
+color.hpp
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
 
 /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.cpp
 vec2.hpp

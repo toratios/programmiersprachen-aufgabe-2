@@ -2,6 +2,9 @@
 #include <catch.hpp>
 #include "vec2.hpp"
 #include "mat2.hpp"
+#include "rectangle.hpp"
+#include "circle.hpp"
+#include "color.hpp"
 
 TEST_CASE ("default_constructor_vec2", "[vec2]")
 {
@@ -129,12 +132,49 @@ TEST_CASE ("transpose_mat2", "[mat2]")
 
 TEST_CASE ("make_rotation_mat2", "[mat2]")
 {
-  float s = 3.14159/2;
+  float s = M_PI/2;
   Mat2 m = make_rotation_mat2(s);
-  REQUIRE (m.xx_ == 0.0f);
-  REQUIRE (m.xy_ == -1.0f);
-  REQUIRE (m.yx_ == 1.0f);
-  REQUIRE (m.yy_ == 0.0f);
+  REQUIRE (m.xx_ == Approx(0.0).epsilon(0.001));
+  REQUIRE (m.xy_ == Approx(-1.0).epsilon(0.001));
+  REQUIRE (m.yx_ == Approx(1.0).epsilon(0.001));
+  REQUIRE (m.yy_ == Approx(0.0).epsilon(0.001));
+}
+
+TEST_CASE ("default_constructor_color", "[color]")
+{
+  Color c(0.0);
+  REQUIRE(c.r_ == 0.0);
+  REQUIRE(c.g_ == 0.0);
+}
+
+TEST_CASE ("default_constructor_circle", "[circle]")
+{
+  Circle c;
+  Vec2 center = c.get_center();
+  REQUIRE(center.x_ == 1.0);
+  REQUIRE(center.y_ == 1.0);
+}
+
+TEST_CASE ("default_constructor_rectangle", "[rectangle]")
+{
+  Rectangle r;
+  Vec2 max = r.get_max();
+  Vec2 min = r.get_min();
+  REQUIRE (max.x_ == 1.0);
+  REQUIRE (max.y_ == 1.0);
+  REQUIRE (min.x_ == 0.0);
+  REQUIRE (min.y_ == 0.0);
+}
+TEST_CASE ("circumference_rectangle", "[rectangle]")
+{
+  Rectangle r(Vec2{0.0,0.0},Vec2{5.0,-8.0});
+  REQUIRE (r.circumference() == 26);
+}
+
+TEST_CASE ("circumference_circle", "[circle]")
+{
+  Circle c;
+  REQUIRE (c.circumference() == Approx(2*M_PI).epsilon(0.001));
 }
 
 int main(int argc, char *argv[])

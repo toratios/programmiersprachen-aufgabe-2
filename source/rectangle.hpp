@@ -1,0 +1,24 @@
+# ifndef RECTANGLE_HPP
+# define RECTANGLE_HPP
+
+# include "vec2.hpp"
+# include "color.hpp"
+
+class Rectangle{
+    Vec2 min_;
+    Vec2 max_;
+    Color color_;
+
+  public:
+    Rectangle();
+    Rectangle(Vec2 const& min, Vec2 const& max);
+    Rectangle(Color const& col);
+    Rectangle(Vec2 const& min, Vec2 const& max, Color const& col);
+
+    Vec2 const& get_max();
+    Vec2 const& get_min();
+    Color const& get_color();
+    float circumference() const;
+};
+
+# endif

@@ -1,5 +1,6 @@
 # ifndef MAT2_HPP
 # define MAt2_HPP
+
 # include "vec2.hpp"
 
 // Mat2 class definition

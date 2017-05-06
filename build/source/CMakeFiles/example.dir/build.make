@@ -177,13 +177,88 @@ source/CMakeFiles/example.dir/mat2.cpp.o.provides: source/CMakeFiles/example.dir
 source/CMakeFiles/example.dir/mat2.cpp.o.provides.build: source/CMakeFiles/example.dir/mat2.cpp.o
 
 
+source/CMakeFiles/example.dir/color.cpp.o: source/CMakeFiles/example.dir/flags.make
+source/CMakeFiles/example.dir/color.cpp.o: ../source/color.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object source/CMakeFiles/example.dir/color.cpp.o"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/color.cpp.o -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.cpp
+
+source/CMakeFiles/example.dir/color.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/color.cpp.i"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.cpp > CMakeFiles/example.dir/color.cpp.i
+
+source/CMakeFiles/example.dir/color.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/color.cpp.s"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.cpp -o CMakeFiles/example.dir/color.cpp.s
+
+source/CMakeFiles/example.dir/color.cpp.o.requires:
+
+.PHONY : source/CMakeFiles/example.dir/color.cpp.o.requires
+
+source/CMakeFiles/example.dir/color.cpp.o.provides: source/CMakeFiles/example.dir/color.cpp.o.requires
+	$(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/color.cpp.o.provides.build
+.PHONY : source/CMakeFiles/example.dir/color.cpp.o.provides
+
+source/CMakeFiles/example.dir/color.cpp.o.provides.build: source/CMakeFiles/example.dir/color.cpp.o
+
+
+source/CMakeFiles/example.dir/circle.cpp.o: source/CMakeFiles/example.dir/flags.make
+source/CMakeFiles/example.dir/circle.cpp.o: ../source/circle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object source/CMakeFiles/example.dir/circle.cpp.o"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/circle.cpp.o -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.cpp
+
+source/CMakeFiles/example.dir/circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/circle.cpp.i"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.cpp > CMakeFiles/example.dir/circle.cpp.i
+
+source/CMakeFiles/example.dir/circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/circle.cpp.s"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.cpp -o CMakeFiles/example.dir/circle.cpp.s
+
+source/CMakeFiles/example.dir/circle.cpp.o.requires:
+
+.PHONY : source/CMakeFiles/example.dir/circle.cpp.o.requires
+
+source/CMakeFiles/example.dir/circle.cpp.o.provides: source/CMakeFiles/example.dir/circle.cpp.o.requires
+	$(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/circle.cpp.o.provides.build
+.PHONY : source/CMakeFiles/example.dir/circle.cpp.o.provides
+
+source/CMakeFiles/example.dir/circle.cpp.o.provides.build: source/CMakeFiles/example.dir/circle.cpp.o
+
+
+source/CMakeFiles/example.dir/rectangle.cpp.o: source/CMakeFiles/example.dir/flags.make
+source/CMakeFiles/example.dir/rectangle.cpp.o: ../source/rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object source/CMakeFiles/example.dir/rectangle.cpp.o"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/rectangle.cpp.o -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/rectangle.cpp
+
+source/CMakeFiles/example.dir/rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/rectangle.cpp.i"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/rectangle.cpp > CMakeFiles/example.dir/rectangle.cpp.i
+
+source/CMakeFiles/example.dir/rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/rectangle.cpp.s"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/rectangle.cpp -o CMakeFiles/example.dir/rectangle.cpp.s
+
+source/CMakeFiles/example.dir/rectangle.cpp.o.requires:
+
+.PHONY : source/CMakeFiles/example.dir/rectangle.cpp.o.requires
+
+source/CMakeFiles/example.dir/rectangle.cpp.o.provides: source/CMakeFiles/example.dir/rectangle.cpp.o.requires
+	$(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/rectangle.cpp.o.provides.build
+.PHONY : source/CMakeFiles/example.dir/rectangle.cpp.o.provides
+
+source/CMakeFiles/example.dir/rectangle.cpp.o.provides.build: source/CMakeFiles/example.dir/rectangle.cpp.o
+
+
 # Object files for target example
 example_OBJECTS = \
 "CMakeFiles/example.dir/window.cpp.o" \
 "CMakeFiles/example.dir/glew.c.o" \
 "CMakeFiles/example.dir/example.cpp.o" \
 "CMakeFiles/example.dir/vec2.cpp.o" \
-"CMakeFiles/example.dir/mat2.cpp.o"
+"CMakeFiles/example.dir/mat2.cpp.o" \
+"CMakeFiles/example.dir/color.cpp.o" \
+"CMakeFiles/example.dir/circle.cpp.o" \
+"CMakeFiles/example.dir/rectangle.cpp.o"
 
 # External object files for target example
 example_EXTERNAL_OBJECTS =
@@ -193,6 +268,9 @@ source/example: source/CMakeFiles/example.dir/glew.c.o
 source/example: source/CMakeFiles/example.dir/example.cpp.o
 source/example: source/CMakeFiles/example.dir/vec2.cpp.o
 source/example: source/CMakeFiles/example.dir/mat2.cpp.o
+source/example: source/CMakeFiles/example.dir/color.cpp.o
+source/example: source/CMakeFiles/example.dir/circle.cpp.o
+source/example: source/CMakeFiles/example.dir/rectangle.cpp.o
 source/example: source/CMakeFiles/example.dir/build.make
 source/example: external/glfw-3.2.1/src/libglfw3.a
 source/example: libnanovg.a
@@ -206,7 +284,7 @@ source/example: /usr/lib/x86_64-linux-gnu/libXinerama.so
 source/example: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
 source/example: /usr/lib/x86_64-linux-gnu/libXcursor.so
 source/example: source/CMakeFiles/example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable example"
 	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -219,6 +297,9 @@ source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/glew.c.o.r
 source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/example.cpp.o.requires
 source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/vec2.cpp.o.requires
 source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/mat2.cpp.o.requires
+source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/color.cpp.o.requires
+source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/circle.cpp.o.requires
+source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/rectangle.cpp.o.requires
 
 .PHONY : source/CMakeFiles/example.dir/requires
 
