@@ -2,7 +2,8 @@
 #include <GLFW/glfw3.h>
 #include <utility>
 #include <cmath>
-
+#include "circle.hpp"
+#include "rectangle.hpp"
 
 int main(int argc, char* argv[])
 {
@@ -48,6 +49,9 @@ int main(int argc, char* argv[])
     win.draw_text(10, 5, 35.0f, text);
 
     win.update();
+
+    //Rectangle r{Vec2{50,100},Vec2{400,400}};
+    //r1.draw(win);
   }
 
   return 0;

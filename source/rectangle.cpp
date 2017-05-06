@@ -21,7 +21,7 @@ Vec2 const& Rectangle::get_max(){
 float Rectangle::circumference() const{
     float a = 0;
     float b = 0;
-    
+
     if(this->max_.x_>this->min_.x_){
         a = this->max_.x_-this->min_.x_;
     }else{
@@ -33,4 +33,8 @@ float Rectangle::circumference() const{
         b = this->min_.y_-this->max_.y_;
     };
     return (a)*2+(b)*2;
+}
+
+void Rectangle::draw(Window const& wnd){
+    
 }

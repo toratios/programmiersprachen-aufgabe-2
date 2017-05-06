@@ -3,6 +3,7 @@
 
 # include "vec2.hpp"
 # include "color.hpp"
+# include "window.hpp"
 
 class Rectangle{
     Vec2 min_;
@@ -19,6 +20,7 @@ class Rectangle{
     Vec2 const& get_min();
     Color const& get_color();
     float circumference() const;
+    void draw(Window const& wnd);
 };
 
 # endif

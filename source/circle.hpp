@@ -3,6 +3,8 @@
 
 # include "vec2.hpp"
 # include "color.hpp"
+# include "window.hpp"
+
 
 class Circle{
     Vec2 center_;
@@ -19,6 +21,7 @@ class Circle{
     float get_r() const;
     Color const& get_color() const; 
     float circumference() const;
+    void draw(Window const& win) const;
 };
 
 # endif
