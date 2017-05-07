@@ -4,10 +4,27 @@
 #include <cmath>
 #include "circle.hpp"
 #include "rectangle.hpp"
+#include <vector>
 
 int main(int argc, char* argv[])
 {
   Window win{std::make_pair(800,800)};
+
+    std::vector<Circle> c_vec;
+    std::vector<Rectangle> r_vec;
+
+    Rectangle r1{Vec2{50,100},Vec2{400,400}};
+    Rectangle r2{Vec2{450.0,500},Vec2{700.0,650.0}};
+    r_vec.push_back(r1);
+    r_vec.push_back(r2);
+
+    float r = 100;
+    Circle c1{Vec2{180,220},r};
+    r = 66.6;
+    Circle c2{Vec2{400,400},r};
+    c_vec.push_back(c1);
+    c_vec.push_back(c2);
+
 
   while (!win.should_close()) {
     if (win.get_key(GLFW_KEY_ESCAPE) == GLFW_PRESS) {
@@ -48,34 +65,20 @@ int main(int argc, char* argv[])
     std::string text = "mouse position: (" + std::to_string(m.first) + ", " + std::to_string(m.second) + ")";
     win.draw_text(10, 5, 35.0f, text);
 
-
-    Rectangle r1{Vec2{50,100},Vec2{400,400}};
-    if(r1.is_inside(Vec2{(float)m.first,(float)m.second}) == true){
-      r1.draw(win,Color{0.0,0.0,1.0});
-    }else{
-      r1.draw(win);
-    };
-    
-    Rectangle r2{Vec2{450.0,500},Vec2{700.0,650.0}};
-    if(r2.is_inside(Vec2{(float)m.first,(float)m.second}) == true){
-      r2.draw(win,Color{0.0,0.0,1.0});
-    }else{
-      r2.draw(win,Color{1.0,0.5,0.0});
+    for (unsigned int i = 0; i < sizeof(r_vec); i++){
+      if(r_vec[i].is_inside(Vec2{(float)m.first,(float)m.second}) == true){
+        r_vec[i].draw(win,Color{0.0,0.0,1.0});
+      }else{
+        r_vec[i].draw(win);
+      };
     }
 
-    float r = 100;
-    Circle c1{Vec2{180,220},r};
-    if(c1.is_inside(Vec2{(float)m.first,(float)m.second}) == true){
-      c1.draw(win,Color{0.0,0.0,1.0});
-    }else{
-      c1.draw(win);
-    }
-    r = 66.6;
-    Circle c2{Vec2{400,400},r};
-    if(c2.is_inside(Vec2{(float)m.first,(float)m.second}) == true){
-      c2.draw(win,Color{0.0,0.0,1.0});
-    }else{
-      c2.draw(win,Color{1.0,0.0,0.0});
+    for (unsigned int i = 0; i < sizeof(c_vec); i++){
+      if(c_vec[i].is_inside(Vec2{(float)m.first,(float)m.second}) == true){
+        c_vec[i].draw(win,Color{0.0,0.0,1.0});
+      }else{
+        c_vec[i].draw(win);
+      };
     }
 
     win.update();
