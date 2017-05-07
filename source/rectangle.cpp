@@ -58,3 +58,24 @@ void Rectangle::draw(Window const& win, Color const& col){
     win.draw_line(min_.x_,max_.y_,max_.x_,max_.y_,col.r_,col.g_,col.b_);
     win.draw_line(max_.x_,min_.y_,max_.x_,max_.y_,col.r_,col.g_,col.b_);
 }
+
+bool Rectangle::isinside(Vec2 const& p){
+    float xmax = max_.x_;
+    float ymax = max_.y_;
+    float xmin = min_.x_;
+    float ymin = min_.y_;
+
+    if(xmax < xmin){
+        xmax = min_.x_;
+        xmin = max_.x_;
+    };
+    if(ymax < ymin){
+        ymax = min_.y_;
+        ymin = max_.y_;
+    };
+    if(xmax >= p.x_ && xmin <= p.x_ && ymax >= p.y_ && ymin <= p.y_){
+        return true;
+    }else{
+        return false;
+    };
+}

@@ -32,7 +32,7 @@ Vec2& Vec2::operator /=( float s ) {
     if (s == 0){
       std::cout << "Dividing by 0 not allowed!";
       this->x_ = 0;
-      this->x_ = 0;
+      this->y_ = 0;
       return *this;
     }
     this->x_ /= s;

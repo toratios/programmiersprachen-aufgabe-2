@@ -34,7 +34,7 @@ TEST_CASE ("vec2&_-=_operator", "[vec2]")
   Vec2 u(0.0,-8.0);
   v -= u;
   REQUIRE(v.x_ == 4.0);
-  REQUIRE(v.y_ == +12.5);
+  REQUIRE(v.y_ == 12.5);
 }
 
 TEST_CASE ("vec2&_*=_operator", "[vec2]")
@@ -44,6 +44,10 @@ TEST_CASE ("vec2&_*=_operator", "[vec2]")
   v *= s;
   REQUIRE(v.x_ == 8.0);
   REQUIRE(v.y_ == 9.0);
+  s = -1.0;
+  v *= s;
+  REQUIRE(v.x_ == -8.0);
+  REQUIRE(v.y_ == -9.0);
   s = 0.0;
   v *= s;
   REQUIRE(v.x_ == 0.0);
@@ -60,6 +64,7 @@ TEST_CASE ("vec2&_/=_operator", "[vec2]")
   s = 0;
   v /= s;
   REQUIRE(v.x_ == 0.0);
+  REQUIRE(v.y_ == 0.0);
 }
 
 TEST_CASE ("default_constructor_mat2", "[mat2]")
@@ -164,6 +169,7 @@ TEST_CASE ("default_constructor_rectangle", "[rectangle]")
   REQUIRE (min.x_ == 0.0);
   REQUIRE (min.y_ == 0.0);
 }
+
 TEST_CASE ("circumference_rectangle", "[rectangle]")
 {
   Rectangle r(Vec2{0.0,0.0},Vec2{5.0,-8.0});
@@ -174,6 +180,17 @@ TEST_CASE ("circumference_circle", "[circle]")
 {
   Circle c;
   REQUIRE (c.circumference() == Approx(2*M_PI).epsilon(0.001));
+}
+
+TEST_CASE ("isinside_rectangle", "[rectangle]")
+{
+  Rectangle r{Vec2{10,0},Vec2{0.0,10}};
+  Vec2 p1{8,8};
+  Vec2 p2{28,29};
+  Vec2 p3{5,10};
+  REQUIRE (r.isinside(p1) == true);
+  REQUIRE (r.isinside(p3) == true);
+  REQUIRE (r.isinside(p2) == false);
 }
 
 TEST_CASE ("isinside_circle", "[circle]")
