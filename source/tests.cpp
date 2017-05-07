@@ -176,6 +176,17 @@ TEST_CASE ("circumference_circle", "[circle]")
   REQUIRE (c.circumference() == Approx(2*M_PI).epsilon(0.001));
 }
 
+TEST_CASE ("isinside_circle", "[circle]")
+{
+  Circle c{Vec2{10,10},5};
+  Vec2 p1{8,8};
+  Vec2 p2{28,29};
+  Vec2 p3{15,10};
+  REQUIRE (c.isinside(p1) == true);
+  REQUIRE (c.isinside(p3) == true);
+  REQUIRE (c.isinside(p2) == false);
+}
+
 int main(int argc, char *argv[])
 {
   Vec2 v(5.0,-5.0);

@@ -65,4 +65,15 @@ void Circle::draw(Window const& win, Color const& col){
         rad2 -= center_;
         rad1 = rad2;
     }
+}
+
+bool Circle::isinside(Vec2 const& p){
+    float a = p.x_ - center_.x_;
+    float b = p.y_ - center_.y_;
+    float c = sqrt(pow(a,2)+pow(b,2));
+    if (r_ >= c){
+        return true;
+    }else{
+        return false;
+    }
 } 
