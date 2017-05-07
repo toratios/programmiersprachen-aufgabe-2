@@ -24,7 +24,7 @@ class Circle{
     float circumference() const;
     void draw(Window const& win);
     void draw(Window const& win, Color const& col);
-    bool isinside(Vec2 const& p);
+    bool is_inside(Vec2 const& p);
 };
 
 # endif

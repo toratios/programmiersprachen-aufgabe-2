@@ -182,31 +182,29 @@ TEST_CASE ("circumference_circle", "[circle]")
   REQUIRE (c.circumference() == Approx(2*M_PI).epsilon(0.001));
 }
 
-TEST_CASE ("isinside_rectangle", "[rectangle]")
+TEST_CASE ("is_inside_rectangle", "[rectangle]")
 {
   Rectangle r{Vec2{10,0},Vec2{0.0,10}};
   Vec2 p1{8,8};
   Vec2 p2{28,29};
   Vec2 p3{5,10};
-  REQUIRE (r.isinside(p1) == true);
-  REQUIRE (r.isinside(p3) == true);
-  REQUIRE (r.isinside(p2) == false);
+  REQUIRE (r.is_inside(p1) == true);
+  REQUIRE (r.is_inside(p3) == true);
+  REQUIRE (r.is_inside(p2) == false);
 }
 
-TEST_CASE ("isinside_circle", "[circle]")
+TEST_CASE ("is_inside_circle", "[circle]")
 {
   Circle c{Vec2{10,10},5};
   Vec2 p1{8,8};
   Vec2 p2{28,29};
   Vec2 p3{15,10};
-  REQUIRE (c.isinside(p1) == true);
-  REQUIRE (c.isinside(p3) == true);
-  REQUIRE (c.isinside(p2) == false);
+  REQUIRE (c.is_inside(p1) == true);
+  REQUIRE (c.is_inside(p3) == true);
+  REQUIRE (c.is_inside(p2) == false);
 }
 
 int main(int argc, char *argv[])
 {
-  Vec2 v(5.0,-5.0);
-  v /= 0;
   return Catch::Session().run(argc, argv);
 }

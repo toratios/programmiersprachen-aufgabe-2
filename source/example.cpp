@@ -51,17 +51,33 @@ int main(int argc, char* argv[])
     win.update();
 
     Rectangle r1{Vec2{50,100},Vec2{400,400}};
-    r1.draw(win);
+    if(r1.is_inside(Vec2{(float)m.first,(float)m.second}) == true){
+      r1.draw(win,Color{0.0,0.0,1.0});
+    }else{
+      r1.draw(win);
+    };
+    
     Rectangle r2{Vec2{450.0,500},Vec2{700.0,650.0}};
-    r2.draw(win,Color{1.0,0.5,0.0});
+    if(r2.is_inside(Vec2{(float)m.first,(float)m.second}) == true){
+      r2.draw(win,Color{0.0,0.0,1.0});
+    }else{
+      r2.draw(win,Color{1.0,0.5,0.0});
+    }
 
     float r = 100;
     Circle c1{Vec2{180,220},r};
-    c1.draw(win);
+    if(c1.is_inside(Vec2{(float)m.first,(float)m.second}) == true){
+      c1.draw(win,Color{0.0,0.0,1.0});
+    }else{
+      c1.draw(win);
+    }
     r = 66.6;
     Circle c2{Vec2{400,400},r};
-    c2.draw(win,Color{1.0,0.0,0.0});
+    if(c2.is_inside(Vec2{(float)m.first,(float)m.second}) == true){
+      c2.draw(win,Color{0.0,0.0,1.0});
+    }else{
+      c2.draw(win,Color{1.0,0.0,0.0});
+    }
   }
-
   return 0;
 }

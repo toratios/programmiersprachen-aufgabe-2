@@ -67,7 +67,7 @@ void Circle::draw(Window const& win, Color const& col){
     }
 }
 
-bool Circle::isinside(Vec2 const& p){
+bool Circle::is_inside(Vec2 const& p){
     float a = p.x_ - center_.x_;
     float b = p.y_ - center_.y_;
     float c = sqrt(pow(a,2)+pow(b,2));

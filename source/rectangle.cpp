@@ -59,7 +59,7 @@ void Rectangle::draw(Window const& win, Color const& col){
     win.draw_line(max_.x_,min_.y_,max_.x_,max_.y_,col.r_,col.g_,col.b_);
 }
 
-bool Rectangle::isinside(Vec2 const& p){
+bool Rectangle::is_inside(Vec2 const& p){
     float xmax = max_.x_;
     float ymax = max_.y_;
     float xmin = min_.x_;
