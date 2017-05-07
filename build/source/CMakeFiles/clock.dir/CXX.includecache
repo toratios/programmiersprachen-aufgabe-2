@@ -101,6 +101,8 @@ cmath
 /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.hpp
 vec2.hpp
 /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
+mat2.hpp
+/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.hpp
 color.hpp
 /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
 window.hpp

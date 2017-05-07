@@ -129,33 +129,9 @@ source/CMakeFiles/clock.dir/clock.cpp.o.provides: source/CMakeFiles/clock.dir/cl
 source/CMakeFiles/clock.dir/clock.cpp.o.provides.build: source/CMakeFiles/clock.dir/clock.cpp.o
 
 
-source/CMakeFiles/clock.dir/circle.cpp.o: source/CMakeFiles/clock.dir/flags.make
-source/CMakeFiles/clock.dir/circle.cpp.o: ../source/circle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object source/CMakeFiles/clock.dir/circle.cpp.o"
-	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/clock.dir/circle.cpp.o -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.cpp
-
-source/CMakeFiles/clock.dir/circle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clock.dir/circle.cpp.i"
-	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.cpp > CMakeFiles/clock.dir/circle.cpp.i
-
-source/CMakeFiles/clock.dir/circle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clock.dir/circle.cpp.s"
-	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.cpp -o CMakeFiles/clock.dir/circle.cpp.s
-
-source/CMakeFiles/clock.dir/circle.cpp.o.requires:
-
-.PHONY : source/CMakeFiles/clock.dir/circle.cpp.o.requires
-
-source/CMakeFiles/clock.dir/circle.cpp.o.provides: source/CMakeFiles/clock.dir/circle.cpp.o.requires
-	$(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/circle.cpp.o.provides.build
-.PHONY : source/CMakeFiles/clock.dir/circle.cpp.o.provides
-
-source/CMakeFiles/clock.dir/circle.cpp.o.provides.build: source/CMakeFiles/clock.dir/circle.cpp.o
-
-
 source/CMakeFiles/clock.dir/vec2.cpp.o: source/CMakeFiles/clock.dir/flags.make
 source/CMakeFiles/clock.dir/vec2.cpp.o: ../source/vec2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/CMakeFiles/clock.dir/vec2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object source/CMakeFiles/clock.dir/vec2.cpp.o"
 	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/clock.dir/vec2.cpp.o -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.cpp
 
 source/CMakeFiles/clock.dir/vec2.cpp.i: cmake_force
@@ -175,6 +151,30 @@ source/CMakeFiles/clock.dir/vec2.cpp.o.provides: source/CMakeFiles/clock.dir/vec
 .PHONY : source/CMakeFiles/clock.dir/vec2.cpp.o.provides
 
 source/CMakeFiles/clock.dir/vec2.cpp.o.provides.build: source/CMakeFiles/clock.dir/vec2.cpp.o
+
+
+source/CMakeFiles/clock.dir/mat2.cpp.o: source/CMakeFiles/clock.dir/flags.make
+source/CMakeFiles/clock.dir/mat2.cpp.o: ../source/mat2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/CMakeFiles/clock.dir/mat2.cpp.o"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/clock.dir/mat2.cpp.o -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.cpp
+
+source/CMakeFiles/clock.dir/mat2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clock.dir/mat2.cpp.i"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.cpp > CMakeFiles/clock.dir/mat2.cpp.i
+
+source/CMakeFiles/clock.dir/mat2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clock.dir/mat2.cpp.s"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.cpp -o CMakeFiles/clock.dir/mat2.cpp.s
+
+source/CMakeFiles/clock.dir/mat2.cpp.o.requires:
+
+.PHONY : source/CMakeFiles/clock.dir/mat2.cpp.o.requires
+
+source/CMakeFiles/clock.dir/mat2.cpp.o.provides: source/CMakeFiles/clock.dir/mat2.cpp.o.requires
+	$(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/mat2.cpp.o.provides.build
+.PHONY : source/CMakeFiles/clock.dir/mat2.cpp.o.provides
+
+source/CMakeFiles/clock.dir/mat2.cpp.o.provides.build: source/CMakeFiles/clock.dir/mat2.cpp.o
 
 
 source/CMakeFiles/clock.dir/color.cpp.o: source/CMakeFiles/clock.dir/flags.make
@@ -201,28 +201,28 @@ source/CMakeFiles/clock.dir/color.cpp.o.provides: source/CMakeFiles/clock.dir/co
 source/CMakeFiles/clock.dir/color.cpp.o.provides.build: source/CMakeFiles/clock.dir/color.cpp.o
 
 
-source/CMakeFiles/clock.dir/mat2.cpp.o: source/CMakeFiles/clock.dir/flags.make
-source/CMakeFiles/clock.dir/mat2.cpp.o: ../source/mat2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object source/CMakeFiles/clock.dir/mat2.cpp.o"
-	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/clock.dir/mat2.cpp.o -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.cpp
+source/CMakeFiles/clock.dir/circle.cpp.o: source/CMakeFiles/clock.dir/flags.make
+source/CMakeFiles/clock.dir/circle.cpp.o: ../source/circle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object source/CMakeFiles/clock.dir/circle.cpp.o"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/clock.dir/circle.cpp.o -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.cpp
 
-source/CMakeFiles/clock.dir/mat2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clock.dir/mat2.cpp.i"
-	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.cpp > CMakeFiles/clock.dir/mat2.cpp.i
+source/CMakeFiles/clock.dir/circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clock.dir/circle.cpp.i"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.cpp > CMakeFiles/clock.dir/circle.cpp.i
 
-source/CMakeFiles/clock.dir/mat2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clock.dir/mat2.cpp.s"
-	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.cpp -o CMakeFiles/clock.dir/mat2.cpp.s
+source/CMakeFiles/clock.dir/circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clock.dir/circle.cpp.s"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.cpp -o CMakeFiles/clock.dir/circle.cpp.s
 
-source/CMakeFiles/clock.dir/mat2.cpp.o.requires:
+source/CMakeFiles/clock.dir/circle.cpp.o.requires:
 
-.PHONY : source/CMakeFiles/clock.dir/mat2.cpp.o.requires
+.PHONY : source/CMakeFiles/clock.dir/circle.cpp.o.requires
 
-source/CMakeFiles/clock.dir/mat2.cpp.o.provides: source/CMakeFiles/clock.dir/mat2.cpp.o.requires
-	$(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/mat2.cpp.o.provides.build
-.PHONY : source/CMakeFiles/clock.dir/mat2.cpp.o.provides
+source/CMakeFiles/clock.dir/circle.cpp.o.provides: source/CMakeFiles/clock.dir/circle.cpp.o.requires
+	$(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/circle.cpp.o.provides.build
+.PHONY : source/CMakeFiles/clock.dir/circle.cpp.o.provides
 
-source/CMakeFiles/clock.dir/mat2.cpp.o.provides.build: source/CMakeFiles/clock.dir/mat2.cpp.o
+source/CMakeFiles/clock.dir/circle.cpp.o.provides.build: source/CMakeFiles/clock.dir/circle.cpp.o
 
 
 # Object files for target clock
@@ -230,10 +230,10 @@ clock_OBJECTS = \
 "CMakeFiles/clock.dir/window.cpp.o" \
 "CMakeFiles/clock.dir/glew.c.o" \
 "CMakeFiles/clock.dir/clock.cpp.o" \
-"CMakeFiles/clock.dir/circle.cpp.o" \
 "CMakeFiles/clock.dir/vec2.cpp.o" \
+"CMakeFiles/clock.dir/mat2.cpp.o" \
 "CMakeFiles/clock.dir/color.cpp.o" \
-"CMakeFiles/clock.dir/mat2.cpp.o"
+"CMakeFiles/clock.dir/circle.cpp.o"
 
 # External object files for target clock
 clock_EXTERNAL_OBJECTS =
@@ -241,10 +241,10 @@ clock_EXTERNAL_OBJECTS =
 source/clock: source/CMakeFiles/clock.dir/window.cpp.o
 source/clock: source/CMakeFiles/clock.dir/glew.c.o
 source/clock: source/CMakeFiles/clock.dir/clock.cpp.o
-source/clock: source/CMakeFiles/clock.dir/circle.cpp.o
 source/clock: source/CMakeFiles/clock.dir/vec2.cpp.o
-source/clock: source/CMakeFiles/clock.dir/color.cpp.o
 source/clock: source/CMakeFiles/clock.dir/mat2.cpp.o
+source/clock: source/CMakeFiles/clock.dir/color.cpp.o
+source/clock: source/CMakeFiles/clock.dir/circle.cpp.o
 source/clock: source/CMakeFiles/clock.dir/build.make
 source/clock: external/glfw-3.2.1/src/libglfw3.a
 source/clock: libnanovg.a
@@ -269,10 +269,10 @@ source/CMakeFiles/clock.dir/build: source/clock
 source/CMakeFiles/clock.dir/requires: source/CMakeFiles/clock.dir/window.cpp.o.requires
 source/CMakeFiles/clock.dir/requires: source/CMakeFiles/clock.dir/glew.c.o.requires
 source/CMakeFiles/clock.dir/requires: source/CMakeFiles/clock.dir/clock.cpp.o.requires
-source/CMakeFiles/clock.dir/requires: source/CMakeFiles/clock.dir/circle.cpp.o.requires
 source/CMakeFiles/clock.dir/requires: source/CMakeFiles/clock.dir/vec2.cpp.o.requires
-source/CMakeFiles/clock.dir/requires: source/CMakeFiles/clock.dir/color.cpp.o.requires
 source/CMakeFiles/clock.dir/requires: source/CMakeFiles/clock.dir/mat2.cpp.o.requires
+source/CMakeFiles/clock.dir/requires: source/CMakeFiles/clock.dir/color.cpp.o.requires
+source/CMakeFiles/clock.dir/requires: source/CMakeFiles/clock.dir/circle.cpp.o.requires
 
 .PHONY : source/CMakeFiles/clock.dir/requires
 

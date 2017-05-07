@@ -43,7 +43,7 @@ void Circle::draw(Window const& win){
     Vec2 rad1{r_,0.0};
     Vec2 rad2{rad1};
     Mat2 m = make_rotation_mat2(M_PI/180);
-    for (float i = 1; i<360; i++){
+    for (float i = 1; i<=360; i++){
         rad1 += center_;
         rad2 = m*rad2;
         rad2 += center_;
@@ -57,7 +57,7 @@ void Circle::draw(Window const& win, Color const& col){
     Vec2 rad1{r_,0.0};
     Vec2 rad2{rad1};
     Mat2 m = make_rotation_mat2(M_PI/180);
-    for (float i = 1; i<360; i++){
+    for (float i = 1; i<=360; i++){
         rad1 += center_;
         rad2 = m*rad2;
         rad2 += center_;

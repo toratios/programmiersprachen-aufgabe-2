@@ -9,6 +9,7 @@ source/CMakeFiles/clock.dir/glew.c.o: ../source/glew.c
 source/CMakeFiles/clock.dir/circle.cpp.o: ../source/circle.cpp
 source/CMakeFiles/clock.dir/circle.cpp.o: ../source/circle.hpp
 source/CMakeFiles/clock.dir/circle.cpp.o: ../source/color.hpp
+source/CMakeFiles/clock.dir/circle.cpp.o: ../source/mat2.hpp
 source/CMakeFiles/clock.dir/circle.cpp.o: ../source/vec2.hpp
 source/CMakeFiles/clock.dir/circle.cpp.o: ../source/window.hpp
 
@@ -17,6 +18,7 @@ source/CMakeFiles/clock.dir/clock.cpp.o: ../external/glfw-3.2.1/include/GLFW/glf
 source/CMakeFiles/clock.dir/clock.cpp.o: ../source/circle.hpp
 source/CMakeFiles/clock.dir/clock.cpp.o: ../source/clock.cpp
 source/CMakeFiles/clock.dir/clock.cpp.o: ../source/color.hpp
+source/CMakeFiles/clock.dir/clock.cpp.o: ../source/mat2.hpp
 source/CMakeFiles/clock.dir/clock.cpp.o: ../source/vec2.hpp
 source/CMakeFiles/clock.dir/clock.cpp.o: ../source/window.hpp
 

@@ -48,7 +48,6 @@ int main(int argc, char* argv[])
     std::string text = "mouse position: (" + std::to_string(m.first) + ", " + std::to_string(m.second) + ")";
     win.draw_text(10, 5, 35.0f, text);
 
-    win.update();
 
     Rectangle r1{Vec2{50,100},Vec2{400,400}};
     if(r1.is_inside(Vec2{(float)m.first,(float)m.second}) == true){
@@ -78,7 +77,9 @@ int main(int argc, char* argv[])
     }else{
       c2.draw(win,Color{1.0,0.0,0.0});
     }
+
+    win.update();
   }
-  
+
   return 0;
 }
