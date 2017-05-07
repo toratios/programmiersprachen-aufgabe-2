@@ -39,6 +39,30 @@ float Circle::circumference() const{
     return circ;
 }
 
-void Circle::draw(Window const& win) const{
-     
+void Circle::draw(Window const& win){
+    Vec2 rad1{r_,0.0};
+    Vec2 rad2{rad1};
+    Mat2 m = make_rotation_mat2(M_PI/180);
+    for (float i = 1; i<360; i++){
+        rad1 += center_;
+        rad2 = m*rad2;
+        rad2 += center_;
+        win.draw_line(rad1.x_,rad1.y_,rad2.x_,rad2.y_,color_.r_,color_.g_,color_.b_);
+        rad2 -= center_;
+        rad1 = rad2;
+    }
+}
+
+void Circle::draw(Window const& win, Color const& col){
+    Vec2 rad1{r_,0.0};
+    Vec2 rad2{rad1};
+    Mat2 m = make_rotation_mat2(M_PI/180);
+    for (float i = 1; i<360; i++){
+        rad1 += center_;
+        rad2 = m*rad2;
+        rad2 += center_;
+        win.draw_line(rad1.x_,rad1.y_,rad2.x_,rad2.y_,col.r_,col.g_,col.b_);
+        rad2 -= center_;
+        rad1 = rad2;
+    }
 } 

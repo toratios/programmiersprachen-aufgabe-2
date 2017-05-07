@@ -46,5 +46,15 @@ float Rectangle::circumference() const{
 }
 
 void Rectangle::draw(Window const& win){
-    
+    win.draw_line(min_.x_,min_.y_,max_.x_,min_.y_,color_.r_,color_.g_,color_.b_);
+    win.draw_line(min_.x_,min_.y_,min_.x_,max_.y_,color_.r_,color_.g_,color_.b_);
+    win.draw_line(min_.x_,max_.y_,max_.x_,max_.y_,color_.r_,color_.g_,color_.b_);
+    win.draw_line(max_.x_,min_.y_,max_.x_,max_.y_,color_.r_,color_.g_,color_.b_);
+}
+
+void Rectangle::draw(Window const& win, Color const& col){
+    win.draw_line(min_.x_,min_.y_,max_.x_,min_.y_,col.r_,col.g_,col.b_);
+    win.draw_line(min_.x_,min_.y_,min_.x_,max_.y_,col.r_,col.g_,col.b_);
+    win.draw_line(min_.x_,max_.y_,max_.x_,max_.y_,col.r_,col.g_,col.b_);
+    win.draw_line(max_.x_,min_.y_,max_.x_,max_.y_,col.r_,col.g_,col.b_);
 }

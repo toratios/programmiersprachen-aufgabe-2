@@ -201,6 +201,54 @@ source/CMakeFiles/tests.dir/rectangle.cpp.o.provides: source/CMakeFiles/tests.di
 source/CMakeFiles/tests.dir/rectangle.cpp.o.provides.build: source/CMakeFiles/tests.dir/rectangle.cpp.o
 
 
+source/CMakeFiles/tests.dir/window.cpp.o: source/CMakeFiles/tests.dir/flags.make
+source/CMakeFiles/tests.dir/window.cpp.o: ../source/window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object source/CMakeFiles/tests.dir/window.cpp.o"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/window.cpp.o -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/window.cpp
+
+source/CMakeFiles/tests.dir/window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/window.cpp.i"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/window.cpp > CMakeFiles/tests.dir/window.cpp.i
+
+source/CMakeFiles/tests.dir/window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/window.cpp.s"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/window.cpp -o CMakeFiles/tests.dir/window.cpp.s
+
+source/CMakeFiles/tests.dir/window.cpp.o.requires:
+
+.PHONY : source/CMakeFiles/tests.dir/window.cpp.o.requires
+
+source/CMakeFiles/tests.dir/window.cpp.o.provides: source/CMakeFiles/tests.dir/window.cpp.o.requires
+	$(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/window.cpp.o.provides.build
+.PHONY : source/CMakeFiles/tests.dir/window.cpp.o.provides
+
+source/CMakeFiles/tests.dir/window.cpp.o.provides.build: source/CMakeFiles/tests.dir/window.cpp.o
+
+
+source/CMakeFiles/tests.dir/glew.c.o: source/CMakeFiles/tests.dir/flags.make
+source/CMakeFiles/tests.dir/glew.c.o: ../source/glew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object source/CMakeFiles/tests.dir/glew.c.o"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tests.dir/glew.c.o   -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/glew.c
+
+source/CMakeFiles/tests.dir/glew.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tests.dir/glew.c.i"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/glew.c > CMakeFiles/tests.dir/glew.c.i
+
+source/CMakeFiles/tests.dir/glew.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tests.dir/glew.c.s"
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/glew.c -o CMakeFiles/tests.dir/glew.c.s
+
+source/CMakeFiles/tests.dir/glew.c.o.requires:
+
+.PHONY : source/CMakeFiles/tests.dir/glew.c.o.requires
+
+source/CMakeFiles/tests.dir/glew.c.o.provides: source/CMakeFiles/tests.dir/glew.c.o.requires
+	$(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/glew.c.o.provides.build
+.PHONY : source/CMakeFiles/tests.dir/glew.c.o.provides
+
+source/CMakeFiles/tests.dir/glew.c.o.provides.build: source/CMakeFiles/tests.dir/glew.c.o
+
+
 # Object files for target tests
 tests_OBJECTS = \
 "CMakeFiles/tests.dir/vec2.cpp.o" \
@@ -208,7 +256,9 @@ tests_OBJECTS = \
 "CMakeFiles/tests.dir/mat2.cpp.o" \
 "CMakeFiles/tests.dir/color.cpp.o" \
 "CMakeFiles/tests.dir/circle.cpp.o" \
-"CMakeFiles/tests.dir/rectangle.cpp.o"
+"CMakeFiles/tests.dir/rectangle.cpp.o" \
+"CMakeFiles/tests.dir/window.cpp.o" \
+"CMakeFiles/tests.dir/glew.c.o"
 
 # External object files for target tests
 tests_EXTERNAL_OBJECTS =
@@ -219,9 +269,22 @@ source/tests: source/CMakeFiles/tests.dir/mat2.cpp.o
 source/tests: source/CMakeFiles/tests.dir/color.cpp.o
 source/tests: source/CMakeFiles/tests.dir/circle.cpp.o
 source/tests: source/CMakeFiles/tests.dir/rectangle.cpp.o
+source/tests: source/CMakeFiles/tests.dir/window.cpp.o
+source/tests: source/CMakeFiles/tests.dir/glew.c.o
 source/tests: source/CMakeFiles/tests.dir/build.make
+source/tests: external/glfw-3.2.1/src/libglfw3.a
+source/tests: libnanovg.a
+source/tests: /usr/lib/x86_64-linux-gnu/libGLU.so
+source/tests: /usr/lib/x86_64-linux-gnu/libGL.so
+source/tests: /usr/lib/x86_64-linux-gnu/librt.so
+source/tests: /usr/lib/x86_64-linux-gnu/libm.so
+source/tests: /usr/lib/x86_64-linux-gnu/libX11.so
+source/tests: /usr/lib/x86_64-linux-gnu/libXrandr.so
+source/tests: /usr/lib/x86_64-linux-gnu/libXinerama.so
+source/tests: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
+source/tests: /usr/lib/x86_64-linux-gnu/libXcursor.so
 source/tests: source/CMakeFiles/tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable tests"
 	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -235,6 +298,8 @@ source/CMakeFiles/tests.dir/requires: source/CMakeFiles/tests.dir/mat2.cpp.o.req
 source/CMakeFiles/tests.dir/requires: source/CMakeFiles/tests.dir/color.cpp.o.requires
 source/CMakeFiles/tests.dir/requires: source/CMakeFiles/tests.dir/circle.cpp.o.requires
 source/CMakeFiles/tests.dir/requires: source/CMakeFiles/tests.dir/rectangle.cpp.o.requires
+source/CMakeFiles/tests.dir/requires: source/CMakeFiles/tests.dir/window.cpp.o.requires
+source/CMakeFiles/tests.dir/requires: source/CMakeFiles/tests.dir/glew.c.o.requires
 
 .PHONY : source/CMakeFiles/tests.dir/requires
 

@@ -23,9 +23,12 @@ add_executable(tests
   mat2.cpp
   color.cpp
   circle.cpp
-  rectangle.cpp)
-target_link_libraries(vec2
-  ${GLFW_LIBRARIES})
-
-
+  rectangle.cpp
+  window.cpp
+  glew.c)
+target_link_libraries(tests
+  glfw
+  ${GLFW_LIBRARIES}
+  nanovg
+  ${OPENGL_LIBRARIES})
 

@@ -233,6 +233,7 @@ glew.o: glew.c.o
 
 # target to build an object file
 glew.c.o:
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/glew.c.o
 	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/glew.c.o
 .PHONY : glew.c.o
 
@@ -242,6 +243,7 @@ glew.i: glew.c.i
 
 # target to preprocess a source file
 glew.c.i:
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/glew.c.i
 	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/glew.c.i
 .PHONY : glew.c.i
 
@@ -251,6 +253,7 @@ glew.s: glew.c.s
 
 # target to generate assembly for a file
 glew.c.s:
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/glew.c.s
 	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/glew.c.s
 .PHONY : glew.c.s
 
@@ -377,6 +380,7 @@ window.o: window.cpp.o
 
 # target to build an object file
 window.cpp.o:
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/window.cpp.o
 	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/window.cpp.o
 .PHONY : window.cpp.o
 
@@ -386,6 +390,7 @@ window.i: window.cpp.i
 
 # target to preprocess a source file
 window.cpp.i:
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/window.cpp.i
 	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/window.cpp.i
 .PHONY : window.cpp.i
 
@@ -395,6 +400,7 @@ window.s: window.cpp.s
 
 # target to generate assembly for a file
 window.cpp.s:
+	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/window.cpp.s
 	cd /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/window.cpp.s
 .PHONY : window.cpp.s
 

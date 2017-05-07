@@ -1,7 +1,8 @@
 # ifndef CIRCLE_HPP
 # define CIRCLE_HPP
 
-# include "vec2.hpp"
+# include "vec2.hpp" 
+# include "mat2.hpp"
 # include "color.hpp"
 # include "window.hpp"
 
@@ -21,7 +22,8 @@ class Circle{
     float get_r() const;
     Color const& get_color() const; 
     float circumference() const;
-    void draw(Window const& win) const;
+    void draw(Window const& win);
+    void draw(Window const& win, Color const& col);
 };
 
 # endif

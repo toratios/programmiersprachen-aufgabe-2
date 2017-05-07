@@ -1,7 +1,6 @@
 #define CATCH_CONFIG_RUNNER
 #include <catch.hpp>
 #include "vec2.hpp"
-#include "mat2.hpp"
 #include "rectangle.hpp"
 #include "circle.hpp"
 #include "color.hpp"

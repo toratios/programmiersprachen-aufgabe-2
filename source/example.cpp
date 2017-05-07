@@ -50,8 +50,17 @@ int main(int argc, char* argv[])
 
     win.update();
 
-    //Rectangle r{Vec2{50,100},Vec2{400,400}};
-    //r1.draw(win);
+    Rectangle r1{Vec2{50,100},Vec2{400,400}};
+    r1.draw(win);
+    Rectangle r2{Vec2{450.0,500},Vec2{700.0,650.0}};
+    r2.draw(win,Color{1.0,0.5,0.0});
+
+    float r = 100;
+    Circle c1{Vec2{180,220},r};
+    c1.draw(win);
+    r = 66.6;
+    Circle c2{Vec2{400,400},r};
+    c2.draw(win,Color{1.0,0.0,0.0});
   }
 
   return 0;

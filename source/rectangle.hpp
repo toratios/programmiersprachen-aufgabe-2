@@ -21,6 +21,7 @@ class Rectangle{
     Color const& get_color();
     float circumference() const;
     void draw(Window const& wnd);
+    void draw(Window const& win, Color const& col);
 };
 
 # endif
