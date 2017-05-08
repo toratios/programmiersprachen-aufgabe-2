@@ -19,15 +19,15 @@ Mat2& Mat2::operator *=( Mat2 const& m ) {
     float b = (xx_ * m.xy_) + (xy_ * m.yy_);
     float c = (yx_ * m.xx_) + (yy_ * m.yx_);
     float d = (yx_ * m.xy_) + (yy_ * m.yy_);
-    this->xx_ = a;
-    this->xy_ = b;
-    this->yx_ = c;
-    this->yy_ = d;
+    xx_ = a;
+    xy_ = b;
+    yx_ = c;
+    yy_ = d;
     return *this;
   }
 
 float Mat2::det() const{
-    return(this->xx_ * this->yy_ - this->xy_ * this->yx_);
+    return(xx_ * yy_ - xy_ * yx_);
   }
 
 Mat2 operator *=(Mat2 const& m1, Mat2 const& m2){

@@ -11,32 +11,32 @@ Vec2::Vec2(float x, float y) :
   y_{y} {}
 
 Vec2& Vec2::operator +=( Vec2 const& v ) {
-    this->x_ += v.x_;
-    this->y_ += v.y_;
+    x_ += v.x_;
+    y_ += v.y_;
     return *this;
   }
 
 Vec2& Vec2::operator -=( Vec2 const& v ) {
-    this->x_ -= v.x_;
-    this->y_ -= v.y_;
+    x_ -= v.x_;
+    y_ -= v.y_;
     return *this;
   }
 
 Vec2& Vec2::operator *=( float s ) {
-    this->x_ *= s;
-    this->y_ *= s;
+    x_ *= s;
+    y_ *= s;
     return *this;
   }
 
 Vec2& Vec2::operator /=( float s ) {
     if (s == 0){
       std::cout << "Dividing by 0 not allowed!";
-      this->x_ = 0;
-      this->y_ = 0;
+      x_ = 0;
+      y_ = 0;
       return *this;
     }
-    this->x_ /= s;
-    this->y_ /= s;
+    x_ /= s;
+    y_ /= s;
     return *this;
   }
 

@@ -99,6 +99,8 @@ TEST_CASE ("det_mat2", "[mat2]")
 {
   Mat2 m(1.0, 3.0, 3.0, 1.0);
   REQUIRE (m.det() == -8.0);
+  Mat2 n(5.0, 3.0, 5.0, 3.0);
+  REQUIRE (n.det() == 0.0);
 }
 
 TEST_CASE ("mat2_*_vec2_operator", "[mat2]")

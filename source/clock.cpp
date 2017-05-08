@@ -35,16 +35,16 @@ int main(int argc, char* argv[])
     win.draw_line(line6a.x_,line6a.y_,line6i.x_,line6i.y_,0.0,0.8,1.0);
     win.draw_line(line9a.x_,line9a.y_,line9i.x_,line9i.y_,0.0,0.8,1.0);
 
-    Vec2 s{sin((2*t*M_PI)/60)*280,-cos((2*t*M_PI)/60)*280};
-    Vec2 m{sin((2*t*M_PI)/3600)*240,-cos((2*t*M_PI)/3600)*240};
-    Vec2 h{sin((2*t*M_PI)/(43200))*200,-cos((2*t*M_PI)/(43200))*200};
+    Vec2 s{(float)sin((2*t*M_PI)/60)*280,(float)-cos((2*t*M_PI)/60)*280};
+    Vec2 m{(float)sin((2*t*M_PI)/3600)*240,(float)-cos((2*t*M_PI)/3600)*240};
+    Vec2 h{(float)sin((2*t*M_PI)/(43200))*200,(float)-cos((2*t*M_PI)/(43200))*200};
 
     s += center;
     m += center;
     h += center;
 
     win.draw_line(center.x_,center.y_,s.x_,s.y_,1.0,0.0,0.0);
-    win.draw_line(center.x_,center.y_,m.x_,m.y_,1.0,0.5,0.0);
+    win.draw_line(center.x_,center.y_,m.x_,m.y_,0.0,1.0,0.0);
     win.draw_line(center.x_,center.y_,h.x_,h.y_,1.0,0.5,1.0);
 
     
