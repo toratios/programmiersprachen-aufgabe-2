@@ -36,12 +36,12 @@ float Rectangle::circumference() const{
         a = this->max_.x_-this->min_.x_;
     }else{
         a = this->min_.x_-this->max_.x_;
-    };
+    }
     if(this->max_.y_>this->min_.y_){
         b = this->max_.y_-this->min_.y_;
     }else{
         b = this->min_.y_-this->max_.y_;
-    };
+    }
     return (a)*2+(b)*2;
 }
 
@@ -68,7 +68,7 @@ bool Rectangle::is_inside(Vec2 const& p){
     if(xmax < xmin){
         xmax = min_.x_;
         xmin = max_.x_;
-    };
+    }
     if(ymax < ymin){
         ymax = min_.y_;
         ymin = max_.y_;
@@ -77,5 +77,5 @@ bool Rectangle::is_inside(Vec2 const& p){
         return true;
     }else{
         return false;
-    };
+    }
 }

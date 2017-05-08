@@ -70,7 +70,7 @@ int main(int argc, char* argv[])
         r_vec[i].draw(win,Color{0.0,0.0,1.0});
       }else{
         r_vec[i].draw(win);
-      };
+      }
     }
 
     for (unsigned int i = 0; i < sizeof(c_vec); i++){
@@ -78,7 +78,7 @@ int main(int argc, char* argv[])
         c_vec[i].draw(win,Color{0.0,0.0,1.0});
       }else{
         c_vec[i].draw(win);
-      };
+      }
     }
 
     win.update();
