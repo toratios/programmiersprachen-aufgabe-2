@@ -5,7 +5,7 @@
 #include "circle.hpp"
 #include "rectangle.hpp"
 #include <vector>
-
+#include <iostream>
 int main(int argc, char* argv[])
 {
   Window win{std::make_pair(800,800)};
@@ -65,13 +65,18 @@ int main(int argc, char* argv[])
     std::string text = "mouse position: (" + std::to_string(m.first) + ", " + std::to_string(m.second) + ")";
     win.draw_text(10, 5, 35.0f, text);
 
-    for (unsigned int i = 0; i < sizeof(r_vec); i++){
+    int rect_counter = 0;
+
+    for (unsigned int i = 0; i < r_vec.size(); i++){
       if(r_vec[i].is_inside(Vec2{(float)m.first,(float)m.second}) == true){
         r_vec[i].draw(win,Color{0.0,0.0,1.0});
       }else{
         r_vec[i].draw(win);
       }
+      ++rect_counter;
     }
+
+    std::cout << "# rectangles: " << rect_counter << "\n";
 
     for (unsigned int i = 0; i < sizeof(c_vec); i++){
       if(c_vec[i].is_inside(Vec2{(float)m.first,(float)m.second}) == true){

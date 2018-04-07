@@ -13,7 +13,7 @@ int main(int argc, char* argv[])
       win.close();
     }
 
-    float t = win.get_time()+(3600*0); 
+    float t = win.get_time()+(3600*5); 
 
     Vec2 center{400,350};
 

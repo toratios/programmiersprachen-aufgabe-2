@@ -6,7 +6,7 @@ C_FLAGS =
 
 C_DEFINES = -DGLEW_STATIC
 
-C_INCLUDES = -I/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/external -I/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/external/glfw-3.2.1/include -I/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/external/nanovg/src -I/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/external/catch-1.1 
+C_INCLUDES = -I/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/external -I/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/external/glfw-3.2.1/include -I/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/external/nanovg/src -I/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/external/catch-1.1 
 
 # Custom flags: CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.o_FLAGS = -Wno-unused-result
 

@@ -5,38 +5,38 @@ source/CMakeFiles/clock.dir/glew.c.o
  ../external/GL/glew.h
  ../external/GL/glxew.h
  ../external/GL/wglew.h
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/glew.c
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/glew.c
 source/CMakeFiles/clock.dir/circle.cpp.o
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.cpp
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.hpp
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.hpp
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/window.hpp
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/circle.cpp
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/circle.hpp
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.hpp
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/window.hpp
 source/CMakeFiles/clock.dir/clock.cpp.o
  ../external/GL/glext.h
  ../external/glfw-3.2.1/include/GLFW/glfw3.h
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.hpp
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/clock.cpp
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.hpp
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/window.hpp
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/circle.hpp
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/clock.cpp
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.hpp
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/window.hpp
 source/CMakeFiles/clock.dir/color.cpp.o
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.cpp
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/color.cpp
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
 source/CMakeFiles/clock.dir/mat2.cpp.o
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.cpp
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.hpp
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.cpp
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.hpp
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
 source/CMakeFiles/clock.dir/vec2.cpp.o
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.cpp
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.cpp
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
 source/CMakeFiles/clock.dir/window.cpp.o
  ../external/GL/glew.h
  ../external/GL/glext.h
  ../external/glfw-3.2.1/include/GLFW/glfw3.h
  ../external/nanovg/src/nanovg.h
  ../external/nanovg/src/nanovg_gl.h
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/window.cpp
- /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/window.hpp
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/window.cpp
+ /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/window.hpp

@@ -6,5 +6,5 @@ C_FLAGS = -fPIC   -Wall
 
 C_DEFINES = -DGLEW_STATIC -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/external -I/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/external/glfw-3.2.1/include -I/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src -I/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/external/glfw-3.2.1/src 
+C_INCLUDES = -I/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/external -I/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/external/glfw-3.2.1/include -I/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src -I/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/external/glfw-3.2.1/src 
 

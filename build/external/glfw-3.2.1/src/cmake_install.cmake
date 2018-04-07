@@ -1,4 +1,4 @@
-# Install script for directory: /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src
+# Install script for directory: /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

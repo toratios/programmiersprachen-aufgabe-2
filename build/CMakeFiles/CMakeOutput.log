@@ -1,4 +1,4 @@
-The system is: Linux - 4.8.0-51-generic - x86_64
+The system is: Linux - 4.13.0-36-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,75 +23,75 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_45e21/fast"
-/usr/bin/make -f CMakeFiles/cmTC_45e21.dir/build.make CMakeFiles/cmTC_45e21.dir/build
-make[1]: Entering directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_45e21.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_45e21.dir/testCCompiler.c.o   -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_45e21
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45e21.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_45e21.dir/testCCompiler.c.o  -o cmTC_45e21 -rdynamic 
-make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_13b3e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_13b3e.dir/build.make CMakeFiles/cmTC_13b3e.dir/build
+make[1]: Entering directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13b3e.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_13b3e.dir/testCCompiler.c.o   -c /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_13b3e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13b3e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_13b3e.dir/testCCompiler.c.o  -o cmTC_13b3e -rdynamic 
+make[1]: Leaving directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d38a6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d38a6.dir/build.make CMakeFiles/cmTC_d38a6.dir/build
-make[1]: Entering directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d38a6.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_d38a6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_d38a6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d38a6.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_d38a6.dir/CMakeCCompilerABI.c.o  -o cmTC_d38a6 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_d5e73/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d5e73.dir/build.make CMakeFiles/cmTC_d5e73.dir/build
+make[1]: Entering directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5e73.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_d5e73.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_d5e73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5e73.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_d5e73.dir/CMakeCCompilerABI.c.o  -o cmTC_d5e73 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d38a6' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLowJxn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_d38a6 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_d38a6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5e73' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQfRJrd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_d5e73 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_d5e73.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d38a6/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d38a6.dir/build.make CMakeFiles/cmTC_d38a6.dir/build]
-  ignore line: [make[1]: Entering directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_d38a6.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_d38a6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_d38a6]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d38a6.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_d38a6.dir/CMakeCCompilerABI.c.o  -o cmTC_d38a6 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d5e73/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d5e73.dir/build.make CMakeFiles/cmTC_d5e73.dir/build]
+  ignore line: [make[1]: Entering directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_d5e73.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_d5e73.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_d5e73]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5e73.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_d5e73.dir/CMakeCCompilerABI.c.o  -o cmTC_d5e73 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d38a6' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLowJxn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_d38a6 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_d38a6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5e73' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQfRJrd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_d5e73 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_d5e73.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccLowJxn.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccQfRJrd.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d38a6] ==> ignore
+    arg [cmTC_d5e73] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_d38a6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_d5e73.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -153,17 +153,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_41b2c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_41b2c.dir/build.make CMakeFiles/cmTC_41b2c.dir/build
-make[1]: Entering directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_41b2c.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_41b2c.dir/feature_tests.c.o   -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_41b2c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41b2c.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_41b2c.dir/feature_tests.c.o  -o cmTC_41b2c -rdynamic 
-make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_017e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_017e7.dir/build.make CMakeFiles/cmTC_017e7.dir/build
+make[1]: Entering directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_017e7.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_017e7.dir/feature_tests.c.o   -c /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_017e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_017e7.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_017e7.dir/feature_tests.c.o  -o cmTC_017e7 -rdynamic 
+make[1]: Leaving directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -173,17 +173,17 @@ make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_03d07/fast"
-/usr/bin/make -f CMakeFiles/cmTC_03d07.dir/build.make CMakeFiles/cmTC_03d07.dir/build
-make[1]: Entering directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_03d07.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_03d07.dir/feature_tests.c.o   -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_03d07
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03d07.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_03d07.dir/feature_tests.c.o  -o cmTC_03d07 -rdynamic 
-make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a6080/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a6080.dir/build.make CMakeFiles/cmTC_a6080.dir/build
+make[1]: Entering directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6080.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_a6080.dir/feature_tests.c.o   -c /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a6080
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6080.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a6080.dir/feature_tests.c.o  -o cmTC_a6080 -rdynamic 
+make[1]: Leaving directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -193,17 +193,17 @@ make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a7d95/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a7d95.dir/build.make CMakeFiles/cmTC_a7d95.dir/build
-make[1]: Entering directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a7d95.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_a7d95.dir/feature_tests.c.o   -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a7d95
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7d95.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_a7d95.dir/feature_tests.c.o  -o cmTC_a7d95 -rdynamic 
-make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_90f90/fast"
+/usr/bin/make -f CMakeFiles/cmTC_90f90.dir/build.make CMakeFiles/cmTC_90f90.dir/build
+make[1]: Entering directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90f90.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_90f90.dir/feature_tests.c.o   -c /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_90f90
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90f90.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_90f90.dir/feature_tests.c.o  -o cmTC_90f90 -rdynamic 
+make[1]: Leaving directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -211,72 +211,72 @@ make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2df4e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2df4e.dir/build.make CMakeFiles/cmTC_2df4e.dir/build
-make[1]: Entering directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2df4e.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_2df4e.dir/testCXXCompiler.cxx.o -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_2df4e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2df4e.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_2df4e.dir/testCXXCompiler.cxx.o  -o cmTC_2df4e -rdynamic 
-make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5c567/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5c567.dir/build.make CMakeFiles/cmTC_5c567.dir/build
+make[1]: Entering directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5c567.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_5c567.dir/testCXXCompiler.cxx.o -c /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_5c567
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c567.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_5c567.dir/testCXXCompiler.cxx.o  -o cmTC_5c567 -rdynamic 
+make[1]: Leaving directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_357f8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_357f8.dir/build.make CMakeFiles/cmTC_357f8.dir/build
-make[1]: Entering directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_357f8.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_357f8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_357f8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_357f8.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_357f8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_357f8 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_be1b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be1b3.dir/build.make CMakeFiles/cmTC_be1b3.dir/build
+make[1]: Entering directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_be1b3.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_be1b3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_be1b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be1b3.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_be1b3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_be1b3 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_357f8' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjF6qME.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_357f8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_357f8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_be1b3' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHBj2bA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_be1b3 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_be1b3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_357f8/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_357f8.dir/build.make CMakeFiles/cmTC_357f8.dir/build]
-  ignore line: [make[1]: Entering directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_357f8.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_357f8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_357f8]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_357f8.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_357f8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_357f8 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_be1b3/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_be1b3.dir/build.make CMakeFiles/cmTC_be1b3.dir/build]
+  ignore line: [make[1]: Entering directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_be1b3.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_be1b3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_be1b3]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be1b3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_be1b3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_be1b3 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_357f8' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjF6qME.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_357f8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_357f8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_be1b3' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHBj2bA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_be1b3 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_be1b3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccjF6qME.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccHBj2bA.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -294,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_357f8] ==> ignore
+    arg [cmTC_be1b3] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_357f8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_be1b3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -336,17 +336,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_eabfe/fast"
-/usr/bin/make -f CMakeFiles/cmTC_eabfe.dir/build.make CMakeFiles/cmTC_eabfe.dir/build
-make[1]: Entering directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_eabfe.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_eabfe.dir/feature_tests.cxx.o -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_eabfe
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eabfe.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_eabfe.dir/feature_tests.cxx.o  -o cmTC_eabfe -rdynamic 
-make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_19edd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19edd.dir/build.make CMakeFiles/cmTC_19edd.dir/build
+make[1]: Entering directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_19edd.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_19edd.dir/feature_tests.cxx.o -c /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_19edd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19edd.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_19edd.dir/feature_tests.cxx.o  -o cmTC_19edd -rdynamic 
+make[1]: Leaving directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -409,17 +409,17 @@ make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_db046/fast"
-/usr/bin/make -f CMakeFiles/cmTC_db046.dir/build.make CMakeFiles/cmTC_db046.dir/build
-make[1]: Entering directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_db046.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_db046.dir/feature_tests.cxx.o -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_db046
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db046.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_db046.dir/feature_tests.cxx.o  -o cmTC_db046 -rdynamic 
-make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_857a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_857a5.dir/build.make CMakeFiles/cmTC_857a5.dir/build
+make[1]: Entering directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_857a5.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_857a5.dir/feature_tests.cxx.o -c /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_857a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_857a5.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_857a5.dir/feature_tests.cxx.o  -o cmTC_857a5 -rdynamic 
+make[1]: Leaving directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -482,17 +482,17 @@ make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d84cc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d84cc.dir/build.make CMakeFiles/cmTC_d84cc.dir/build
-make[1]: Entering directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d84cc.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_d84cc.dir/feature_tests.cxx.o -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d84cc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d84cc.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_d84cc.dir/feature_tests.cxx.o  -o cmTC_d84cc -rdynamic 
-make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_836c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_836c9.dir/build.make CMakeFiles/cmTC_836c9.dir/build
+make[1]: Entering directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_836c9.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_836c9.dir/feature_tests.cxx.o -c /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_836c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_836c9.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_836c9.dir/feature_tests.cxx.o  -o cmTC_836c9 -rdynamic 
+make[1]: Leaving directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -553,114 +553,114 @@ make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_51769/fast"
-/usr/bin/make -f CMakeFiles/cmTC_51769.dir/build.make CMakeFiles/cmTC_51769.dir/build
-make[1]: Entering directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_51769.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_51769.dir/CheckIncludeFile.c.o   -c /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_51769
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51769.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_51769.dir/CheckIncludeFile.c.o  -o cmTC_51769 -rdynamic 
-make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a1d0a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1d0a.dir/build.make CMakeFiles/cmTC_a1d0a.dir/build
+make[1]: Entering directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1d0a.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_a1d0a.dir/CheckIncludeFile.c.o   -c /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a1d0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1d0a.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a1d0a.dir/CheckIncludeFile.c.o  -o cmTC_a1d0a -rdynamic 
+make[1]: Leaving directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5a17f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5a17f.dir/build.make CMakeFiles/cmTC_5a17f.dir/build
-make[1]: Entering directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5a17f.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5a17f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_5a17f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a17f.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_5a17f.dir/CheckFunctionExists.c.o  -o cmTC_5a17f -rdynamic -lpthread 
-make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_9d604/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d604.dir/build.make CMakeFiles/cmTC_9d604.dir/build
+make[1]: Entering directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d604.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9d604.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9d604
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d604.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_9d604.dir/CheckFunctionExists.c.o  -o cmTC_9d604 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
-Change Dir: /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_23b96/fast"
-/usr/bin/make -f CMakeFiles/cmTC_23b96.dir/build.make CMakeFiles/cmTC_23b96.dir/build
-make[1]: Entering directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_23b96.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_23b96.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_23b96
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23b96.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_23b96.dir/CheckFunctionExists.c.o  -o cmTC_23b96 -rdynamic /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
-make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c569b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c569b.dir/build.make CMakeFiles/cmTC_c569b.dir/build
+make[1]: Entering directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c569b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_c569b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c569b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c569b.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_c569b.dir/CheckFunctionExists.c.o  -o cmTC_c569b -rdynamic /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+make[1]: Leaving directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_65e91/fast"
-/usr/bin/make -f CMakeFiles/cmTC_65e91.dir/build.make CMakeFiles/cmTC_65e91.dir/build
-make[1]: Entering directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_65e91.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_65e91.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_65e91
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65e91.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_65e91.dir/CheckFunctionExists.c.o  -o cmTC_65e91 -rdynamic 
-make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_325e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_325e0.dir/build.make CMakeFiles/cmTC_325e0.dir/build
+make[1]: Entering directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_325e0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_325e0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_325e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_325e0.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_325e0.dir/CheckFunctionExists.c.o  -o cmTC_325e0 -rdynamic 
+make[1]: Leaving directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function connect exists passed with the following output:
-Change Dir: /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a53be/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a53be.dir/build.make CMakeFiles/cmTC_a53be.dir/build
-make[1]: Entering directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a53be.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_a53be.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a53be
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a53be.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_a53be.dir/CheckFunctionExists.c.o  -o cmTC_a53be -rdynamic 
-make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_da1dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_da1dd.dir/build.make CMakeFiles/cmTC_da1dd.dir/build
+make[1]: Entering directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da1dd.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_da1dd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_da1dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da1dd.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_da1dd.dir/CheckFunctionExists.c.o  -o cmTC_da1dd -rdynamic 
+make[1]: Leaving directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function remove exists passed with the following output:
-Change Dir: /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9d593/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9d593.dir/build.make CMakeFiles/cmTC_9d593.dir/build
-make[1]: Entering directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9d593.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_9d593.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9d593
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d593.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_9d593.dir/CheckFunctionExists.c.o  -o cmTC_9d593 -rdynamic 
-make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_22083/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22083.dir/build.make CMakeFiles/cmTC_22083.dir/build
+make[1]: Entering directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22083.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_22083.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_22083
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22083.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_22083.dir/CheckFunctionExists.c.o  -o cmTC_22083 -rdynamic 
+make[1]: Leaving directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function shmat exists passed with the following output:
-Change Dir: /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_67461/fast"
-/usr/bin/make -f CMakeFiles/cmTC_67461.dir/build.make CMakeFiles/cmTC_67461.dir/build
-make[1]: Entering directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_67461.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_67461.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_67461
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67461.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_67461.dir/CheckFunctionExists.c.o  -o cmTC_67461 -rdynamic 
-make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0f555/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0f555.dir/build.make CMakeFiles/cmTC_0f555.dir/build
+make[1]: Entering directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f555.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_0f555.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0f555
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f555.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_0f555.dir/CheckFunctionExists.c.o  -o cmTC_0f555 -rdynamic 
+make[1]: Leaving directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
-Change Dir: /home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bf8cc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bf8cc.dir/build.make CMakeFiles/cmTC_bf8cc.dir/build
-make[1]: Entering directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bf8cc.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_bf8cc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_bf8cc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf8cc.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_bf8cc.dir/CheckFunctionExists.c.o  -o cmTC_bf8cc -rdynamic -lICE 
-make[1]: Leaving directory '/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4d6d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4d6d1.dir/build.make CMakeFiles/cmTC_4d6d1.dir/build
+make[1]: Entering directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d6d1.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_4d6d1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4d6d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d6d1.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_4d6d1.dir/CheckFunctionExists.c.o  -o cmTC_4d6d1 -rdynamic -lICE 
+make[1]: Leaving directory '/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/build/CMakeFiles/CMakeTmp'
 
 

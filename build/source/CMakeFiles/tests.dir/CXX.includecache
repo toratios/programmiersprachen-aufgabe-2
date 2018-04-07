@@ -312,73 +312,73 @@ math.h
 nanovg.h
 ../external/nanovg/src/nanovg.h
 
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.cpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/circle.cpp
 circle.hpp
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/circle.hpp
 cmath
 -
 
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/circle.hpp
 vec2.hpp
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
 mat2.hpp
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.hpp
 color.hpp
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
 window.hpp
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/window.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/window.hpp
 
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.cpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/color.cpp
 color.hpp
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
 
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
 
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.cpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.cpp
 mat2.hpp
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.hpp
 iostream
 -
 cmath
 -
 
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/mat2.hpp
 vec2.hpp
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
 
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/rectangle.cpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/rectangle.cpp
 rectangle.hpp
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/rectangle.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/rectangle.hpp
 
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/rectangle.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/rectangle.hpp
 vec2.hpp
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
 color.hpp
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
 window.hpp
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/window.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/window.hpp
 
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/tests.cpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/tests.cpp
 catch.hpp
 -
 vec2.hpp
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
 rectangle.hpp
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/rectangle.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/rectangle.hpp
 circle.hpp
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/circle.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/circle.hpp
 color.hpp
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/color.hpp
 
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.cpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.cpp
 vec2.hpp
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
 iostream
 -
 
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/vec2.hpp
 
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/window.cpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/window.cpp
 cstdio
 -
 GL/glew.h
@@ -386,11 +386,11 @@ GL/glew.h
 GLFW/glfw3.h
 -
 nanovg.h
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/nanovg.h
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/nanovg.h
 nanovg_gl.h
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/nanovg_gl.h
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/nanovg_gl.h
 window.hpp
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/window.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/window.hpp
 utility
 -
 cstring
@@ -402,7 +402,7 @@ cassert
 exception
 -
 
-/home/max/Documents/Uni/ProgSpr/programmiersprachen-aufgabe-2/source/window.hpp
+/home/max/Documents/Uni/2.Semester/ProgSpr/programmiersprachen-aufgabe-2/source/window.hpp
 utility
 -
 array
